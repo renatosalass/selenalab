@@ -1,0 +1,149 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('imagenes/selena.jpeg'); /* Ruta de la imagen */
+    background-size: 210px; /* Cubre todo el contenedor */
+    background-position: right -19px bottom -40px;
+    background-color: #fff; /* Color de fondo en caso de que la imagen no se cargue */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+
+h1 {
+    color: #ff007f; /* Rosa fuerte */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff007f; /* Rosa fuerte */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.questions {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Ajusta el espacio entre las preguntas y las opciones */
+}
+
+.options input[type="radio"],
+.options label {
+    margin: 0 5px; /* Ajusta el espacio entre las opciones según sea necesario */
+
+}
+
+.options input[type="radio"] {
+    display: none;
+}
+
+.options label {
+    display: block;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ff007f; /* Rosa fuerte */
+    border-radius: 5px;
+    color: #ff007f; /* Rosa fuerte */
+    cursor: pointer;
+}
+
+.options input[type="radio"]:checked + label {
+    background-color: #ff007f; /* Rosa fuerte */
+    color: #fff;
+}
+
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #ff007f; /* Rosa fuerte */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Centrar horizontalmente el botón */
+}
+
+button:hover {
+    background-color: #cc0052; /* Rosa más oscuro */
+}
+
+/* Estilos para el campo de nombre cuando está enfocado */
+#nombre:focus {
+    border-color: #ff80bf; /* Cambia el color del borde a rosa */
+    outline: none; /* Quita el contorno predeterminado */
+    box-shadow: 0 0 5px rgba(255, 128, 191, 0.5); /* Añade una sombra para resaltar */
+}
+
+/* Estilos para los campos de nombre, correo electrónico y comentarios cuando están enfocados */
+#nombre:focus,
+#email:focus,
+#comentarios:focus {
+    border-color: #ff80bf; /* Cambia el color del borde a rosa */
+    outline: none; /* Quita el contorno predeterminado */
+    box-shadow: 0 0 5px rgba(255, 128, 191, 0.5); /* Añade una sombra para resaltar */
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 560px; /* Cambia este valor según tus preferencias */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    max-width: 560px; /* Cambia este valor según tus preferencias */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body {
+    background-image: linear-gradient(135deg,
+                       #FFB6C1, #ffafbd, #ffc3a0, #FF69B4
+                     ););
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    font-family: Arial, sans-serif;
+}
+
+
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
