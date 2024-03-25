@@ -1,2 +1,2 @@
 # selenalab
-Página de encuesta para un curo de estética
+Página de encuesta para un curso de estética
