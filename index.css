@@ -3,8 +3,8 @@
     margin: 50px auto;
     padding: 20px;
     background-image: url('imagenes/selena.jpeg'); /* Ruta de la imagen */
-    background-size: 210px; /* Cubre todo el contenedor */
-    background-position: right -19px bottom -40px;
+    background-size: 187px; /* Cubre todo el contenedor */
+    background-position: right -35px bottom 20px;
     background-color: #fff; /* Color de fondo en caso de que la imagen no se cargue */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
